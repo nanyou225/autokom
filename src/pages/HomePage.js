@@ -1,26 +1,24 @@
-import React from 'react'
-import AboutA from '../components/AboutA'
-import AboutB from '../components/AboutB'
-import CarouselBox from '../components/CarouselBox'
-import CarselBoxA from '../components/CarselBoxA'
-import CarselBoxB from '../components/CarselBoxB'
-import CatgA from '../components/CatgA'
-import CatgB from '../components/CatgB'
-import CatgC from '../components/CatgC'
-import Connexion from '../components/Connexion'
-import Contact from '../components/Contact'
-import Content1 from '../components/Content1'
-import Content2 from '../components/Content2'
-import Content3 from '../components/Content3'
-import ContentBox from '../components/ContentBox'
-import Footer from '../components/Footer'
-import ImmatBox from '../components/ImmatBox'
-import Logo from '../components/Logo'
-import Main from '../components/Main'
-import NavBar from '../components/NavBar'
-import Panier from '../components/Panier'
-import Search from '../components/Search'
-import { Container } from '../globalStyles'
+import React from "react";
+import AboutA from "../components/AboutA";
+import AboutB from "../components/AboutB";
+import CarouselBox from "../components/CarouselBox";
+import CarselBoxA from "../components/CarselBoxA";
+import CarselBoxB from "../components/CarselBoxB";
+import Connexion from "../components/Connexion";
+import Contact from "../components/Contact";
+import Content1 from "../components/Content1";
+import Content2 from "../components/Content2";
+import Content3 from "../components/Content3";
+import ContentBox from "../components/ContentBox";
+import Footer from "../components/Footer";
+import ImmatBox from "../components/ImmatBox";
+import Logo from "../components/Logo";
+import Main from "../components/Main";
+import NavBar from "../components/NavBar";
+import Panier from "../components/Panier";
+import Search from "../components/Search";
+import SideBar from "../components/SideBar";
+import { Container } from "../globalStyles";
 
 const HomePage = () => {
   return (
@@ -32,9 +30,7 @@ const HomePage = () => {
         <Connexion>Connexion</Connexion>
         <Panier>Panier</Panier>
       </NavBar>
-      <CatgA className="grid-class">CatgA</CatgA>
-      <CatgB className="grid-class">CatgB</CatgB>
-      <CatgC className="grid-class">CatgC</CatgC>
+      <SideBar className="grid-class">SideBar</SideBar>
       <ImmatBox className="grid-class">ImmatBox</ImmatBox>
       <CarouselBox className="grid-class">CarouselBox</CarouselBox>
       <CarselBoxA className="grid-class">CarselBoxA</CarselBoxA>
@@ -49,7 +45,7 @@ const HomePage = () => {
       </ContentBox>
       <Footer className="grid-class">Footer</Footer>
     </Container>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

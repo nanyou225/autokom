@@ -20,7 +20,7 @@ export const Container = styled.div`
   grid-template-rows: 10% 5% 15% 5% 23% 5% 14% 8% 15%;
   grid-template-areas:
     "nav nav nav"
-    "catgA catgB catgC"
+    "sidebar sidebar sidebar"
     "immatBox carouselBox carouselBox"
     "carselBoxA carselBoxA carselBoxA"
     "main main main"
@@ -28,12 +28,23 @@ export const Container = styled.div`
     "aboutA aboutB aboutB"
     "contentBox contentBox contentBox"
     "footer footer footer";
-/* 
-  .grid-class {
-    background-color: steelblue;
-    color: #fff;
-    border: skyblue 1px solid;
-    justify-content: center;
-    align-items: center;
-  } */
+  transition: all 0.25s ease-in-out;
+  @media (max-width: 550px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 2.5% 7.5% 2.5% 11.5% 2.5% 7% 4% 7.5%;
+    grid-template-areas:
+      "nav"
+      "catgA"
+      "catgB"
+      "catgC"
+      "immatBox"
+      "carouselBox"
+      "carselBoxA"
+      "main"
+      "carselBoxB"
+      "aboutA"
+      "aboutB"
+      "contentBox"
+      "footer";
+  }
 `;

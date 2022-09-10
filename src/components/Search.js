@@ -1,10 +1,13 @@
 import React from 'react'
-import { SearchUl } from './Search.elements'
 
-const Search = () => {
-  return (
-    <SearchUl>Search</SearchUl>
-  )
-}
-
-export default Search
+const Search = ({ className, placeholder, onChangeHandler }) => (
+  <>
+    <input
+      className={`search-box ${className}`}
+      type="search"
+      placeholder={placeholder}
+      onChange={onChangeHandler}
+    />
+  </>
+);
+export default Search;

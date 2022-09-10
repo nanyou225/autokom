@@ -17,7 +17,7 @@ body{
 export const Container = styled.div`
   display: grid;
   height: 100vh;
-  grid-template-rows: 8% 5% 15% 5% 23% 5% 15% 8% 16%;
+  grid-template-rows: 10% 5% 15% 5% 23% 5% 14% 8% 15%;
   grid-template-areas:
     "nav nav nav"
     "catgA catgB catgC"

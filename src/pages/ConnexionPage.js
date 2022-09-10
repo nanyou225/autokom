@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Footer from "../components/Footer";
+import { Container } from "../globalStyles";
 
 const ConnexionPage = () => {
   return (
-    <div>ConnexionPage</div>
-  )
-}
+    <Container>
+      <h1>ConnexionPage</h1>
+      <Footer />
+    </Container>
+  );
+};
 
-export default ConnexionPage
+export default ConnexionPage;

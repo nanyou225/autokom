@@ -1,10 +1,12 @@
-import React from 'react'
-import { PanierUl } from './Panier.elements'
+import React from "react";
+import { PanierUl } from "./Panier.elements";
 
 const Panier = () => {
   return (
-    <PanierUl>Panier</PanierUl>
-  )
-}
+    <PanierUl>
+      Panier
+    </PanierUl>
+  );
+};
 
-export default Panier
+export default Panier;

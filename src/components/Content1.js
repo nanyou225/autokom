@@ -1,8 +1,9 @@
 import React from 'react'
+import { Content1D } from './Content1.elements'
 
 const Content1 = () => {
   return (
-    <div>Content1</div>
+    <Content1D>Content1</Content1D>
   )
 }
 

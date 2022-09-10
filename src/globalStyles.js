@@ -28,12 +28,12 @@ export const Container = styled.div`
     "aboutA aboutB aboutB"
     "contentBox contentBox contentBox"
     "footer footer footer";
-
+/* 
   .grid-class {
     background-color: steelblue;
     color: #fff;
     border: skyblue 1px solid;
     justify-content: center;
     align-items: center;
-  }
+  } */
 `;

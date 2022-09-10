@@ -1,8 +1,9 @@
 import React from 'react'
+import { MainD } from './Main.elements'
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <MainD>Main</MainD>
   )
 }
 

@@ -1,8 +1,9 @@
 import React from 'react'
+import { CatgBDiv } from './CatgB.elements'
 
 const CatgB = () => {
   return (
-    <div>CatgB</div>
+    <CatgBDiv>CatgB</CatgBDiv>
   )
 }
 

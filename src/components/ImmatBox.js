@@ -1,8 +1,9 @@
 import React from 'react'
+import { ImmatBoxDiv } from './ImmatBox.elements'
 
 const ImmatBox = () => {
   return (
-    <div>ImmatBox</div>
+    <ImmatBoxDiv>ImmatBox</ImmatBoxDiv>
   )
 }
 

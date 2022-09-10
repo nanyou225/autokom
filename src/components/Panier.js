@@ -1,8 +1,9 @@
 import React from 'react'
+import { PanierUl } from './Panier.elements'
 
 const Panier = () => {
   return (
-    <div>Panier</div>
+    <PanierUl>Panier</PanierUl>
   )
 }
 

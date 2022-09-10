@@ -1,6 +1,10 @@
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./globalStyles";
-import { Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import ContactPage from "./pages/ContactPage";
+import ConnexionPage from "./pages/ConnexionPage";
+import PanierPage from "./pages/PanierPage";
 
 const theme = {
   colors: {
@@ -53,7 +57,12 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Routes></Routes>
+      <Routes>
+        <Route path="/" element={<HomePage />} exact />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/connexion" element={<ConnexionPage />} />
+        <Route path="/panier" element={<PanierPage />} />
+      </Routes>
     </ThemeProvider>
   );
 }

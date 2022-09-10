@@ -1,8 +1,9 @@
 import React from 'react'
+import { ContentBoxD } from './ContentBox.elements'
 
 const ContentBox = () => {
   return (
-    <div>ContentBox</div>
+    <ContentBoxD>ContentBox</ContentBoxD>
   )
 }
 

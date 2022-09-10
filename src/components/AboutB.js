@@ -1,8 +1,9 @@
 import React from 'react'
+import { AboutBD } from './AboutB.elements'
 
 const AboutB = () => {
   return (
-    <div>AboutB</div>
+    <AboutBD>AboutB</AboutBD>
   )
 }
 

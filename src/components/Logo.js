@@ -1,8 +1,9 @@
 import React from 'react'
+import { LogoUl } from './Logo.elements'
 
 const Logo = () => {
   return (
-    <div>Logo</div>
+    <LogoUl>Logo</LogoUl>
   )
 }
 

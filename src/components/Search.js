@@ -1,8 +1,9 @@
 import React from 'react'
+import { SearchUl } from './Search.elements'
 
 const Search = () => {
   return (
-    <div>Search</div>
+    <SearchUl>Search</SearchUl>
   )
 }
 

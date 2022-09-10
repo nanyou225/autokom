@@ -1,8 +1,9 @@
 import React from 'react'
+import { CarselBoxAD } from './CarselBoxA.elements'
 
 const CarselBoxA = () => {
   return (
-    <div>CarselBoxA</div>
+    <CarselBoxAD>CarselBoxA</CarselBoxAD>
   )
 }
 

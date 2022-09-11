@@ -11,7 +11,6 @@ import Content2 from "../components/Content2";
 import Content3 from "../components/Content3";
 import ContentBox from "../components/ContentBox";
 import Footer from "../components/Footer";
-import ImmatBox from "../components/ImmatBox";
 import Logo from "../components/Logo";
 import Main from "../components/Main";
 import NavBar from "../components/NavBar";
@@ -31,7 +30,6 @@ const HomePage = () => {
         <Panier>Panier</Panier>
       </NavBar>
       <SideBar className="grid-class">SideBar</SideBar>
-      <ImmatBox className="grid-class">ImmatBox</ImmatBox>
       <CarouselBox className="grid-class">CarouselBox</CarouselBox>
       <CarselBoxA className="grid-class">CarselBoxA</CarselBoxA>
       <Main className="grid-class">Main</Main>

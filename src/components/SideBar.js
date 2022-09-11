@@ -3,6 +3,7 @@ import { Container } from "./SideBar.elements";
 import { Link } from "react-router-dom";
 import Categories from "../categories.json";
 import CategoryCpy from "../categoryCpy.json";
+import Garages from "../garagePartenaire.json";
 
 const SideBar = () => {
   return (
@@ -37,11 +38,21 @@ const SideBar = () => {
             );
           })}
       </ul>
-      <ul className="header-cat-text">
+      <ul className="header-garage">
         <li>
-          <Link to="/garage_partner" className="catalogue">
+          <Link to="/garage_partner" className="garage">
             Garage Partenaire
           </Link>
+          <ul className="dropdownG">
+            {Garages &&
+              Garages.map((garage) => {
+                return (
+                  <li key={garage.id}>
+                    <Link to="/garage_item">{garage.title}</Link>
+                  </li>
+                );
+              })}
+          </ul>
         </li>
       </ul>
     </Container>

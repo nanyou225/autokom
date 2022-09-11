@@ -74,7 +74,52 @@ export const Container = styled.div`
     border-bottom-right-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
-  @media screen and (max-width: 550px) {
-    width: 100%;
+  //
+  .header-garage {
+    text-transform: Capitalize;
+    font-size: 16px;
+    max-width: 1240px;
+    margin: auto;
+
+    li {
+      position: relative;
+      text-align: left;
+    }
+    a {
+      display: inline-block;
+      padding: 8px 25px;
+      color: #333;
+    }
+  }
+
+  .header-garage li .garage {
+    color: #fff;
+    margin: 0.2rem 0;
+  }
+
+  .header-garage li a:hover {
+    color: #fb3d28;
+    transition: all 0.3s ease;
+  }
+
+  .header-garage li ul.dropdownG {
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    position: absolute;
+    z-index: 1000;
+    right: 0;
+  }
+  .header-garage li:hover ul.dropdownG {
+    opacity: 1;
+    visibility: visible;
+    width: 77rem;
+    height: 78vh;
+    padding: 0.8rem 0;
+    transition: 0.5s;
+    transform: translateY(1px);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 `;

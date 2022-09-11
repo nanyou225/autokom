@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "image": "/public/carImages/audi.svg",
+        "caption": "Audi"
+    },
+    {
+        "id": 2,
+        "image": "/public/carImages/bmw.svg",
+        "caption": "Bmw"
+    },
+    {
+        "id": 3,
+        "image": "/public/carImages/citroën.svg",
+        "caption": "Citroën"
+    },
+    {
+        "id": 4,
+        "image": "/public/carImages/dacia.svg",
+        "caption": "Dacia"
+    },
+    {
+        "id": 5,
+        "image": "/public/carImages/fiat.svg",
+        "caption": "Fiat"
+    },
+    {
+        "id": 6,
+        "image": "/public/carImages/ford.svg",
+        "caption": "Ford"
+    },
+    {
+        "id": 7,
+        "image": "/public/carImages/mercedes-benz.svg",
+        "caption": "Mercedes"
+    },
+    {
+        "id": 8,
+        "image": "/public/carImages/opel.svg",
+        "caption": "Opel"
+    },
+    {
+        "id": 9,
+        "image": "/public/carImages/Peugeot.svg",
+        "caption": "Peugeot"
+    },
+    {
+        "id": 10,
+        "image": "/Renault"
+    },
+    {
+        "id": 11,
+        "image": "/public/carImages/seat.svg",
+        "caption": "Seat"
+    },
+    {
+        "id": 12,
+        "image": "/public/carImages/Volkswagen.svg",
+        "caption": "Volkswagen"
+    }
+]

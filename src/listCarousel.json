@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image": "/carouselBox/kirchoff.jpg",
+        "caption": "Kirchoff"
+    },
+    {
+        "id": 2,
+        "image": "/carouselBox/mossholder.jpg",
+        "caption": "Mossholder"
+    },
+    {
+        "id": 3,
+        "image": "/carouselBox/mossholder2.jpg",
+        "caption": "Mossholder2"
+    },
+    {
+        "id": 4,
+        "image": "/carouselBox/bestjump.jpg",
+        "caption": "Bestjump"
+    },
+    {
+        "id": 5,
+        "image": "/carouselBox/cylinders.jpg",
+        "caption": "Cylinders"
+    },
+    {
+        "id": 6,
+        "image": "/carouselBox/hochgesang.jpg",
+        "caption": "Hochgesang"
+    },
+    {
+        "id": 7,
+        "image": "/carouselBox/bestjump.jpg",
+        "caption": "Bestjump"
+    },
+    {
+        "id": 8,
+        "image": "/carouselBox/eliason.jpg",
+        "caption": "Eliason"
+    },
+    {
+        "id": 9,
+        "image": "/carouselBox/hochgesang.jpg",
+        "caption": "Hochgesang"
+    },
+    {
+        "id": 10,
+        "image": "/carouselBox/eliason.jpg",
+        "caption": "Eliason"
+    },
+    {
+        "id": 11,
+        "image": "/carouselBox/kirchoff.jpg",
+        "caption": "Kirchoff"
+    },
+    {
+        "id": 12,
+        "image": "/carouselBox/eliason.jpg",
+        "caption": "Eliason"
+    }
+]

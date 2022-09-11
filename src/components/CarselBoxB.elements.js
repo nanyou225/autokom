@@ -5,5 +5,12 @@ export const CarselBoxBD = styled.div`
   background-color: #ccc;
   max-width: 1280px;
   margin: auto;
-  padding: 30px;
+  line-height: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  .listCarouselB img {
+    width: 100px;
+    border-radius: 8px;
+  }
 `;

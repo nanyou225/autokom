@@ -10,7 +10,7 @@ const SideBar = () => {
     <Container>
       <ul className="header-cat-text">
         <li>
-          <Link to="/catalog" className="catalogue">
+          <Link to="/catalogPage" className="catalogue">
             Catalogue
           </Link>
           <ul className="dropdown">
@@ -40,7 +40,7 @@ const SideBar = () => {
       </ul>
       <ul className="header-garage">
         <li>
-          <Link to="/garage_partner" className="garage">
+          <Link to="/garagePartner" className="garage">
             Garage Partenaire
           </Link>
           <ul className="dropdownG">

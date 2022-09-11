@@ -5,6 +5,8 @@ import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
 import ConnexionPage from "./pages/ConnexionPage";
 import PanierPage from "./pages/PanierPage";
+import CatalogPage from "./pages/CatalogPage";
+import GaragePartner from "./pages/GaragePartner";
 
 
 const theme = {
@@ -63,6 +65,8 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/connexion" element={<ConnexionPage />} />
         <Route path="/panier" element={<PanierPage />} />
+        <Route path="/catalogPage" element={<CatalogPage />} />
+        <Route path="/garagePartner" element={<GaragePartner />} />
       </Routes>
     </ThemeProvider>
   );

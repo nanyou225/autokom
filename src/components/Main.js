@@ -4,6 +4,7 @@ import { MainD } from "./Main.elements";
 const Main = () => {
   return (
     <MainD>
+    <h1>Les pièces les plus recherchées sur le site</h1>
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
         aut, officiis cum animi ducimus ratione quos voluptate. Quisquam

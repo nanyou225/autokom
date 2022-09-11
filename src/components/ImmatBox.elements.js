@@ -19,9 +19,11 @@ export const ImmatBoxDiv = styled.div`
   }
 
   button {
-    font-weight: 700;
+    font-weight: 400;
     width: 320px;
-    letter-spacing: 12px;
+    padding: 6px;
+    letter-spacing: 5px;
+    font-size: 18px;
     margin-bottom: 20px;
 
     &:hover {

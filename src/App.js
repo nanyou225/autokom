@@ -6,6 +6,7 @@ import ContactPage from "./pages/ContactPage";
 import ConnexionPage from "./pages/ConnexionPage";
 import PanierPage from "./pages/PanierPage";
 
+
 const theme = {
   colors: {
     GlobalStyle: "#fff",

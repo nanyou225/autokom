@@ -12,8 +12,8 @@ const CarselBoxB = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 3000,
-    autoplaySpeed: 3000,
+    speed: 4000,
+    autoplaySpeed: 4000,
     cssEase: "linear",
   };
 

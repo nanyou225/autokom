@@ -32,7 +32,7 @@ const ImmatBox = () => {
       <div className="immat-div">
         <h2>Sélectionnant mon véhicule</h2>
         <span>
-          <b>Link:</b> {country && lang ? link : "-"}
+          <b>Link:</b> {country && lang ? link : "XXXXX"}
         </span>
         <h3>Par plaque d'immatriculation</h3>
         <br />

@@ -20,13 +20,13 @@ const CarouselBox = () => {
         data={carousel}
         time={5000}
         captionStyle={captionStyle}
-        width="800px"
+        width="740px"
         radius="8px"
         slideNumber={false}
         slideNumberStyle={slideNumberStyle}
         captionPosition="bottom"
         automatic={true}
-        dots={true}
+        dots={false}
         pauseIconColor="white"
         pauseIconSize="40px"
         slideBackgroundColor="darkgrey"

@@ -25,6 +25,7 @@ export const Container = styled.div`
     "sidebar sidebar sidebar"
     "carouselBox carouselBox carouselBox"
     "main main main"
+    "aboutBox aboutBox aboutBox"
     "aboutA aboutB aboutB"
     "carselBoxA carselBoxA carselBoxA"
     "carselBoxB carselBoxB carselBoxB"

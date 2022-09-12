@@ -24,10 +24,10 @@ export const Container = styled.div`
     "nav nav nav"
     "sidebar sidebar sidebar"
     "carouselBox carouselBox carouselBox"
-    "carselBoxA carselBoxA carselBoxA"
     "main main main"
-    "carselBoxB carselBoxB carselBoxB"
     "aboutA aboutB aboutB"
+    "carselBoxA carselBoxA carselBoxA"
+    "carselBoxB carselBoxB carselBoxB"
     "contentBox contentBox contentBox"
     "footer footer footer";
   transition: all 0.25s ease-in-out;

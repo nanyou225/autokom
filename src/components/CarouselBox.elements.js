@@ -13,4 +13,5 @@ export const CarouselDiv = styled.div`
   #thumbnail-div .thumbnail {
     border-radius: 8px;
   }
+
 `;

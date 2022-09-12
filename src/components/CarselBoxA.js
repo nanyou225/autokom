@@ -10,7 +10,7 @@ const CarselBoxA = () => {
     dots: false,
     infinite: true,
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: -1,
     autoplay: true,
     speed: 4000,
     autoplaySpeed: 4000,

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const CarselBoxBD = styled.div`
   grid-area: carselBoxB;
-  background-color: #ccc;
+  background-color: #fff;
   max-width: 1280px;
   margin: auto;
   line-height: 1px;

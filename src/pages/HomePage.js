@@ -20,16 +20,16 @@ const HomePage = () => {
       <NavBar />
       <SideBar className="grid-class">SideBar</SideBar>
       <CarouselBox />
-      <CarselBoxA />
       <Main />
+      <CarselBoxA />
       <CarselBoxB />
+      <ContentBox>
+      <Content1 />
+      <Content2 />
+      <Content3 />
+      </ContentBox>
       <AboutA />
       <AboutB />
-      <ContentBox>
-        <Content1 />
-        <Content2 />
-        <Content3 />
-      </ContentBox>
       <Footer />
     </Container>
   );

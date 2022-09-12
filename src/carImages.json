@@ -1,61 +1,61 @@
 [
     {
         "id": 1,
-        "image": "/carImages/audi.svg",
+        "image": "/assets/carImages/audi.svg",
         "caption": "Audi"
     },
     {
         "id": 2,
-        "image": "/carImages/bmw.svg",
+        "image": "/assets/carImages/bmw.svg",
         "caption": "Bmw"
     },
     {
         "id": 3,
-        "image": "/carImages/citroën.svg",
+        "image": "/assets/carImages/citroën.svg",
         "caption": "Citroën"
     },
     {
         "id": 4,
-        "image": "/carImages/dacia.svg",
+        "image": "/assets/carImages/dacia.svg",
         "caption": "Dacia"
     },
     {
         "id": 5,
-        "image": "/carImages/fiat.svg",
+        "image": "/assets/carImages/fiat.svg",
         "caption": "Fiat"
     },
     {
         "id": 6,
-        "image": "/carImages/ford.svg",
+        "image": "/assets/carImages/ford.svg",
         "caption": "Ford"
     },
     {
         "id": 7,
-        "image": "/carImages/mercedes-benz.svg",
+        "image": "/assets/carImages/mercedes-benz.svg",
         "caption": "Mercedes"
     },
     {
         "id": 8,
-        "image": "/carImages/opel.svg",
+        "image": "/assets/carImages/opel.svg",
         "caption": "Opel"
     },
     {
         "id": 9,
-        "image": "/carImages/Peugeot.svg",
+        "image": "/assets/carImages/Peugeot.svg",
         "caption": "Peugeot"
     },
     {
         "id": 10,
-        "image": "/carImages/renaulta.svg"
+        "image": "/assets/carImages/renaulta.svg"
     },
     {
         "id": 11,
-        "image": "/carImages/seat.svg",
+        "image": "/assets/carImages/seat.svg",
         "caption": "Seat"
     },
     {
         "id": 12,
-        "image": "/carImages/Volkswagen.svg",
+        "image": "/assets/carImages/Volkswagen.svg",
         "caption": "Volkswagen"
     }
 ]

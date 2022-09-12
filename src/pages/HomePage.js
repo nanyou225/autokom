@@ -17,21 +17,21 @@ import { Container } from "../globalStyles";
 const HomePage = () => {
   return (
     <Container>
-      <NavBar/>
-      <SideBar className="grid-class">SideBar</SideBar>
-      <CarouselBox/>
-      <CarselBoxA/>
-      <Main/>
-      <CarselBoxB/>
-      <AboutA/>
-      <AboutB/>
-      <ContentBox/>
-        <Content1>Content1</Content1>
-        <Content2>Content2</Content2>
-        <Content3>Content3</Content3>
-      </ContentBox>
-      <Footer className="grid-class">Footer</Footer>
-    </Container>
+    <NavBar />
+    <SideBar className="grid-class">SideBar</SideBar>
+    <CarouselBox />
+    <CarselBoxA />
+    <Main />
+    <CarselBoxB />
+    <AboutA />
+    <AboutB />
+    <ContentBox>
+      <Content1 />
+      <Content2 />
+      <Content3 />
+    </ContentBox>
+    <Footer />
+  </Container>
   );
 };
 

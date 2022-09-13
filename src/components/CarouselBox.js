@@ -15,7 +15,7 @@ const CarouselBox = () => {
   };
   return (
     <CarouselDiv>
-    <ImmatBox />
+      <ImmatBox />
       <Carousel
         data={carousel}
         time={5000}

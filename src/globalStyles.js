@@ -26,7 +26,6 @@ export const Container = styled.div`
     "carouselBox carouselBox carouselBox"
     "main main main"
     "aboutBox aboutBox aboutBox"
-    "aboutA aboutB aboutB"
     "carselBoxA carselBoxA carselBoxA"
     "carselBoxB carselBoxB carselBoxB"
     "contentBox contentBox contentBox"
@@ -42,9 +41,8 @@ export const Container = styled.div`
       "carouselBox"
       "carselBoxA"
       "main"
+      "aboutBox"
       "carselBoxB"
-      "aboutA"
-      "aboutB"
       "contentBox"
       "footer";
   }

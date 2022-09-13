@@ -31,9 +31,10 @@ const ImmatBox = () => {
     <ImmatBoxDiv>
       <div className="immat-div">
         <h2>Sélectionnant mon véhicule</h2>
-        <span>
+        <span className="link-immat">
           <b>Link:</b> {country && lang ? link : "XXXXX"}
         </span>
+        <br />
         <h3>Par plaque d'immatriculation</h3>
         <br />
         <div className="immat">
@@ -72,7 +73,8 @@ const ImmatBox = () => {
             getOptionLabel={(x) => x.name}
             getOptionValue={(x) => x.code}
           />
-        </div><br/>
+        </div>
+        <br />
         <button>VALIDER</button>
       </div>
     </ImmatBoxDiv>

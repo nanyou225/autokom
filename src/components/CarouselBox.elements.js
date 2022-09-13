@@ -7,12 +7,13 @@ export const CarouselDiv = styled.div`
   margin: auto 8%;
   padding: 5px;
   border-radius: 8px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   display: flex;
 
   .box {
     margin: inherit;
+    margin-top:auto;
   }
 
   #thumbnail-div .thumbnail {

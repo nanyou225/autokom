@@ -6,7 +6,7 @@ export const MainD = styled.div`
   margin: auto;
   background: #fff;
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   
   h1 {
     text-align: center;

@@ -1,4 +1,5 @@
 import styled from "styled-components";
-import Content1 from "./Content1";
+import { Content1D } from "./Content1.elements";
 
-export const Content2 = styled(Content1)``;
+
+export const Content2 = styled(Content1D)``;

@@ -2,11 +2,16 @@ import styled from "styled-components";
 
 export const ImmatBoxDiv = styled.div`
   grid-area: immatBox;
-  background-color: #ccc;
-  /* max-width: 1280px;
-  margin: auto; */
+  background-color: #E8E8E8;
   padding: 30px;
   border-radius: 8px;
+  position: relative;
+
+  span {
+    color: red;
+    position: absolute;
+    margin-right: 5rem;
+  }
 
   input {
     text-align: center;
@@ -17,15 +22,14 @@ export const ImmatBoxDiv = styled.div`
     height: 50px;
     letter-spacing: 2px;
     border-radius: 4px;
-    
   }
 
   button {
+    font-size: 18px;
     font-weight: 400;
     width: 320px;
     padding: 6px;
     letter-spacing: 5px;
-    font-size: 18px;
 
     &:hover {
       background-color: #fb3d28;

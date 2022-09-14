@@ -75,7 +75,7 @@ const ImmatBox = () => {
           />
         </div>
         <br />
-        <button>VALIDER</button>
+        <button>ENVOYER</button>
       </div>
     </ImmatBoxDiv>
   );

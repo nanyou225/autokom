@@ -2,15 +2,20 @@ import styled from "styled-components";
 
 export const ImmatBoxDiv = styled.div`
   grid-area: immatBox;
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   padding: 30px;
   border-radius: 8px;
   position: relative;
 
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+
   span {
     color: red;
     position: absolute;
-    margin-right: 5rem;
   }
 
   input {
@@ -18,6 +23,7 @@ export const ImmatBoxDiv = styled.div`
     font-weight: 700;
     font-size: 25px;
     border: 2px solid #fb3d28;
+    outline: #fb3d28;
     width: 320px;
     height: 50px;
     letter-spacing: 2px;
@@ -25,15 +31,19 @@ export const ImmatBoxDiv = styled.div`
   }
 
   button {
-    font-size: 18px;
+    background-color: #fb3d28;
+    color: #fff;
+    font-size: 16px;
     font-weight: 400;
     width: 320px;
     padding: 6px;
+    border: 2px solid #fb3d28;
+    border-radius: 4px;
     letter-spacing: 5px;
 
     &:hover {
-      background-color: #fb3d28;
-      color: #fff;
+      background-color: #fff;
+      color: #fb3d28;
     }
   }
 `;

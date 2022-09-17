@@ -10,6 +10,7 @@
     "react": "^18.2.0",
     "react-carousel-minimal": "^1.4.1",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.35.0",
     "react-icons": "^4.4.0",
     "react-minimal-carousel": "^1.0.0",
     "react-player": "^2.10.1",

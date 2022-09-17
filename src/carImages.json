@@ -11,8 +11,8 @@
     },
     {
         "id": 3,
-        "image": "/assets/carImages/citroën.svg",
-        "caption": "Citroën"
+        "image": "/assets/carImages/citroen.svg",
+        "caption": "citroën"
     },
     {
         "id": 4,
@@ -57,5 +57,15 @@
         "id": 12,
         "image": "/assets/carImages/Volkswagen.svg",
         "caption": "Volkswagen"
+    },
+    {
+        "id": 13,
+        "image": "/assets/carImages/alfaRomeo.svg",
+        "caption": "alfaRomeo"
+    },
+    {
+        "id": 14,
+        "image": "/assets/carImages/mitsubishi.svg",
+        "caption": "mitsubishi"
     }
 ]

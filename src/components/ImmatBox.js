@@ -35,17 +35,19 @@ const ImmatBox = () => {
           <b>Link:</b> {country && lang ? link : "XXXXX"}
         </span>
         <br />
-        <h3>Par plaque d'immatriculation</h3>
         <br />
-        <div className="immat">
+        <h4>Par plaque d'immatriculation</h4>
+
+        <div className="immatSear">
           <input type="text" placeholder="AB-325-CF" />
-        </div>
+    
+          </div>
         <br />
         <br />
-        <h3>Par véhicule</h3>
+        <p>ou</p>
         <br />
+        <h4>Par selection de mon véhicule</h4>
         <div>
-          <b>Marque</b>
           <Select
             placeholder="Selectionner la marque"
             value={country}
@@ -55,7 +57,7 @@ const ImmatBox = () => {
             getOptionValue={(x) => x.car_code}
           />
 
-          <b>Model</b>
+          <br />
           <Select
             placeholder="Selectionner le modèl"
             value={lang}
@@ -64,7 +66,8 @@ const ImmatBox = () => {
             getOptionLabel={(x) => x.name}
             getOptionValue={(x) => x.code}
           />
-          <b>Motorisation</b>
+          <br />
+
           <Select
             placeholder="Selectionner la motorisation"
             value={lang}
@@ -73,9 +76,11 @@ const ImmatBox = () => {
             getOptionLabel={(x) => x.name}
             getOptionValue={(x) => x.code}
           />
+
+          <br />
+          <br />
+          <button>ENVOYER</button>
         </div>
-        <br />
-        <button>ENVOYER</button>
       </div>
     </ImmatBoxDiv>
   );

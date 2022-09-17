@@ -4,15 +4,25 @@ export const ImmatBoxDiv = styled.div`
   grid-area: immatBox;
   background-color: #e8e8e8;
   padding: 30px;
+  margin: auto;
   border-radius: 8px;
   position: relative;
 
   h1,
   h2,
-  h3 {
+  h4 {
     text-align: center;
   }
-
+  p::before {
+    content:" - ";
+    margin-left: 45%;
+    right: 0.5em;
+  }
+  p::after {
+    content:" - ";
+    left: 0.5em;
+    margin-right: -45%;
+  }
   span {
     color: red;
     position: absolute;
@@ -24,10 +34,11 @@ export const ImmatBoxDiv = styled.div`
     font-size: 25px;
     border: 2px solid #fb3d28;
     outline: #fb3d28;
-    width: 320px;
-    height: 50px;
     letter-spacing: 2px;
     border-radius: 4px;
+  }
+  .immatSear input {
+    height: 50px;
   }
 
   button {
@@ -35,7 +46,8 @@ export const ImmatBoxDiv = styled.div`
     color: #fff;
     font-size: 16px;
     font-weight: 400;
-    width: 320px;
+    width: 100%;
+    height: 45px;
     padding: 6px;
     border: 2px solid #fb3d28;
     border-radius: 4px;

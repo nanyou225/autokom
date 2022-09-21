@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Huile Moteur",
-        "image": "/url_",
+        "image": "",
         "category_list": [
             {
                 "Chaînes-neiges et Equipements Roue": [
@@ -18,8 +18,7 @@
                                 "brand": "SKF",
                                 "reference": "VKMC 93616",
                                 "category": "Pièces moteur",
-                                "image": "/url",
-                                "images": "/url"
+                                "image": "/url"
                             }
                         ],
                         "Pneumatiques": []
@@ -31,7 +30,7 @@
     {
         "id": 2,
         "title": "Pneus et Equipements Roue",
-        "image": "/url_",
+        "image": "",
         "category_list": [
             {
                 "Chaînes-neiges et Equipements Roue": [
@@ -47,8 +46,7 @@
                                 "brand": "GATES",
                                 "reference": "KP4114",
                                 "category": "Pièces moteur",
-                                "image": "/url",
-                                "images": "/url"
+                                "image": "/url"
                             },
                             {
                                 "title": "Capteur de roue, syst. de contrôle de pression des pneus",
@@ -60,8 +58,7 @@
                                 "brand": "SKF",
                                 "reference": "VKMC 93616",
                                 "category": "Pièces moteur",
-                                "image": "/url",
-                                "images": "/url"
+                                "image": "/url"
                             }
                         ],
                         "Pneumatiques": []
@@ -73,7 +70,7 @@
     {
         "id": 3,
         "title": "Outillage",
-        "image": "/url_",
+        "image": "",
         "category_list": [
             {
                 "Outillage divers & coffrets": [
@@ -111,7 +108,7 @@
     {
         "id": 4,
         "title": "Entretien et Nettoyage",
-        "image": "/url_",
+        "image": "",
         "category_list": [
             {
                 "Additifs et Traitements spécifiques": [

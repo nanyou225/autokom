@@ -11,12 +11,12 @@
     },
     {
         "id": 3,
-        "image": "/assets/brandImages/Bosch.jpg",
+        "image": "/assets/brandImages/Bosch.svg",
         "caption": "Bosch"
     },
     {
         "id": 4,
-        "image": "/assets/brandImages/Brembo.jpg",
+        "image": "/assets/brandImages/Brembo.svg",
         "caption": "Brembo"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
         "id": 7,
-        "image": "/assets/brandImages/LuK.jpg",
+        "image": "/assets/brandImages/Luk.svg",
         "caption": "LuK"
     },
     {
@@ -46,22 +46,32 @@
     },
     {
         "id": 10,
-        "image": "/assets/brandImages/Sachs.jpg",
+        "image": "/assets/brandImages/Sachs.svg",
         "caption": "Sachs"
     },
     {
         "id": 11,
-        "image": "/assets/brandImages/Skf.jpg",
+        "image": "/assets/brandImages/Skf.svg",
         "caption": "Skf"
     },
     {
         "id": 12,
-        "image": "/assets/brandImages/Trw.jpg",
+        "image": "/assets/brandImages/Trw.svg",
         "caption": "Trw"
     },
     {
         "id": 13,
-        "image": "/assets/brandImages/Valeo.jpg",
+        "image": "/assets/brandImages/Valeo.svg",
         "caption": "Valeo"
+    },
+    {
+        "id": 14,
+        "image": "/assets/brandImages/Continental.svg",
+        "caption": "continental"
+    },
+    {
+        "id": 15,
+        "image": "/assets/brandImages/Delphi.svg",
+        "caption": "Delphi"
     }
 ]

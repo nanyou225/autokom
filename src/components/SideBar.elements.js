@@ -13,7 +13,6 @@ export const Container = styled.div`
 
     li {
       display: inline-block;
-      text-transform: Capitalize;
       font-size: 16px;
     }
     a {
@@ -28,7 +27,6 @@ export const Container = styled.div`
   }
 
   .header-cat-text {
-    text-transform: Capitalize;
     font-size: 16px;
     max-width: 1240px;
     margin: auto;

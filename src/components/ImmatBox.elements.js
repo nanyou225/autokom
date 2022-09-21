@@ -8,24 +8,29 @@ export const ImmatBoxDiv = styled.div`
   border-radius: 8px;
   position: relative;
 
-  h1,
-  h2,
-  h4 {
-    text-align: center;
-  }
   p::before {
-    content:" - ";
-    margin-left: 45%;
+    content: "";
+    margin-left: 10%;
     right: 0.5em;
+    background-color: #29323c;
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 35%;
+    box-sizing: inherit;
   }
   p::after {
-    content:" - ";
+    content: "";
+    margin-right: -10%;
     left: 0.5em;
-    margin-right: -45%;
-  }
-  span {
-    color: red;
-    position: absolute;
+    background-color: #29323c;
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 35%;
+    box-sizing: inherit;
   }
 
   input {
@@ -36,9 +41,15 @@ export const ImmatBoxDiv = styled.div`
     outline: #fb3d28;
     letter-spacing: 2px;
     border-radius: 4px;
+    display: flex;
   }
   .immatSear input {
     height: 50px;
+    position: relative;
+  }
+
+  span.flag {
+    float: right;
   }
 
   button {
@@ -55,9 +66,8 @@ export const ImmatBoxDiv = styled.div`
 
     &:hover {
       background-color: #fff;
+      transition: all 0.3s ease;
       color: #fb3d28;
     }
   }
 `;
-
-// #e8e8e8

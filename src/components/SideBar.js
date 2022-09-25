@@ -10,6 +10,7 @@ const SideBar = () => {
     <Container>
       <ul className="header-cat-text">
         <li>
+        
           <Link to="/catalogPage" className="catalogue">
             Catalogue
           </Link>
@@ -31,7 +32,7 @@ const SideBar = () => {
             return (
               <li key={categoryCpy.id}>
                 <Link to="/catalogCpy" className="catalogue">
-                  {categoryCpy.image}
+                  <img src={categoryCpy.image} alt="img"/>
                   {categoryCpy.title}
                 </Link>
               </li>

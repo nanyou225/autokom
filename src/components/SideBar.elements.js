@@ -120,4 +120,13 @@ export const Container = styled.div`
     border-bottom-right-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
+
+  .catalogue img {
+    margin-right: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius:4px;
+  }
 `;

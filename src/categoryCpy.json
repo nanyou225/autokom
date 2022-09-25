@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Huile Moteur",
-        "image": "",
+        "image": "../assets/categoryCpy/huileMoteur.svg",
         "category_list": [
             {
                 "Chaînes-neiges et Equipements Roue": [
@@ -29,8 +29,36 @@
     },
     {
         "id": 2,
+        "title": "Freinage",
+        "image": "../assets/categoryCpy/freinage-2.svg",
+        "category_list": [
+            {
+                "Chaînes-neiges et Equipements Roue": [
+                    {
+                        " Boulon de roue": [
+                            {
+                                "title": "Capteur de roue, syst. de contrôle de pression des pneus",
+                                "description": "Kit de distribution + Pompe à eau",
+                                "price": 139.90,
+                                "discountPercentage": 12.96,
+                                "rating": 4.69,
+                                "stock": 94,
+                                "brand": "SKF",
+                                "reference": "VKMC 93616",
+                                "category": "Pièces moteur",
+                                "image": "/url"
+                            }
+                        ],
+                        "Pneumatiques": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
         "title": "Pneus et Equipements Roue",
-        "image": "",
+        "image": "../assets/categoryCpy/pneumatique.svg",
         "category_list": [
             {
                 "Chaînes-neiges et Equipements Roue": [
@@ -68,9 +96,9 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Outillage",
-        "image": "",
+        "image": "../assets/categoryCpy/tools.svg",
         "category_list": [
             {
                 "Outillage divers & coffrets": [
@@ -106,9 +134,9 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Entretien et Nettoyage",
-        "image": "",
+        "image": "../assets/categoryCpy/cleanning.svg",
         "category_list": [
             {
                 "Additifs et Traitements spécifiques": [
